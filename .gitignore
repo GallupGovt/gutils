@@ -1,0 +1,5 @@
+# virtualenv
+utils/
+
+# data files
+tinyurl/*_tiny.csv
