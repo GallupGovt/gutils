@@ -21,3 +21,6 @@ $ python3 tinyurl/tinyurl.py -d tinyurl/test_links.csv
 The `-d` parameter is the data that's passed in. This is assumed to be an arbitrarily large CSV with one required variable: `link`. It can have any other number of variables with no issues. The program will write the tinyurls to the same CSV as the variable `tinyurl` (so best not to have a variable named that...) and then save it to the same directory, by the same name, except with `_tiny` appended to the name and before the CSV extension.
 
 This code comes with a test worksheet (called, creatively, `test_links.csv`). That's it, have fun!
+
+## Adding new stuff
+Be careful with adding stuff!
