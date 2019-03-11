@@ -15,7 +15,7 @@ def run(args_dict):
 
     # iterate through each link
     tinys = [requests.get(URL, params={'url': link}).text for link in
-             links['link']]
+             links['Link']]
 
     # match tinyurls to data
     links['tinyurl'] = tinys
